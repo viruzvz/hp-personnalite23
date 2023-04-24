@@ -1,2 +1,1 @@
-import '@/scripts/bootstrap'
-import '@/scripts/cursor'
+// import '@/scripts/bootstrap'
