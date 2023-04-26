@@ -1,0 +1,30 @@
+#carousel-hero.carousel.hero.slide
+  .carousel-indicators
+    button.active(type='button' data-bs-target='#carousel-hero' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+    button(type='button' data-bs-target='#carousel-hero' data-bs-slide-to='1' aria-label='Slide 2')
+    button(type='button' data-bs-target='#carousel-hero' data-bs-slide-to='2' aria-label='Slide 3')
+  .carousel-inner
+    .carousel-item.active
+      img.d-block.w-100(src='https://unsplash.it/1500/760?random&amp;seed=1' alt='...')
+      .container
+        .row
+          .col-12
+            .caption
+              h1 A CLÍNICA
+              p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore officiis mollitia, laudantium quia illo voluptates consequatur quas voluptatum veniam tempore dicta tenetur dolorem eos, debitis ipsa dolorum temporibus non. Eaque.
+    .carousel-item
+      img.d-block.w-100(src='https://unsplash.it/1500/760?random&amp;seed=2' alt='...')
+      .caption
+        h1 ESTAMOS ETC 
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam fuga dolore ipsam, quas commodi quibusdam, culpa in illo maiores non nostrum mollitia incidunt porro qui totam placeat esse nemo quasi.
+    .carousel-item
+      img.d-block.w-100(src='https://unsplash.it/1500/760?random&amp;seed=3' alt='...')
+      .caption
+        h1 AINDA 
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam aspernatur aliquam, in sapiente recusandae veritatis maxime error assumenda? Vero expedita reiciendis accusantium ab nam fugiat, unde modi debitis libero minus.
+  button.carousel-control-prev(type='button' data-bs-target='#carousel-hero' data-bs-slide='prev')
+    span.carousel-control-prev-icon(aria-hidden='true')
+    span.visually-hidden Previous
+  button.carousel-control-next(type='button' data-bs-target='#carousel-hero' data-bs-slide='next')
+    span.carousel-control-next-icon(aria-hidden='true')
+    span.visually-hidden Next
