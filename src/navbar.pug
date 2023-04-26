@@ -1,10 +1,11 @@
-nav.navbar.navbar-expand-lg.bg-light
-  .container-fluid
-    a.navbar-brand(href='#') Navbar
+nav.navbar.navbar-expand-lg.nav-primary
+  .container
+    a.navbar-brand(href='#')
+      img(src="assets/logo.svg", alt="Logo Personnalité")
     button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
       span.navbar-toggler-icon
     #navbarSupportedContent.collapse.navbar-collapse
-      ul.navbar-nav.me-auto.mb-2.mb-lg-0
+      ul.navbar-nav.mb-2.mb-lg-0
         li.nav-item
           a.nav-link.active(aria-current='page' href='#') Home
         li.nav-item
@@ -13,3 +14,13 @@ nav.navbar.navbar-expand-lg.bg-light
           a.nav-link Serviços
         li.nav-item
           a.nav-link Agendar
+      ul.navbar-nav.mb-2.mb-lg-0.navbar-social
+        li.nav-item
+          a.nav-link(href='#') 
+            i.fa-brands.fa-facebook
+        li.nav-item
+          a.nav-link(href='#')
+            i.fa-brands.fa-instagram
+        li.nav-item
+          a.nav-link(href='#')
+            i.fa-brands.fa-whatsapp
