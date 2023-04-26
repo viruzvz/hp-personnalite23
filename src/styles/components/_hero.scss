@@ -5,11 +5,19 @@
   .carousel-inner {
     height: 100vh;
   }
+  .carousel-indicators {
+    margin-bottom: 5rem;
+  }
   .carousel-item {
     height: 100vh;
   }
   .caption {
+    color: $c-primary;
+  }
+  .container-hero {
     position: absolute;
-    top: 150px;
+    top: 350px;
+    left: 0;
+    right: 0;
   }
 }
