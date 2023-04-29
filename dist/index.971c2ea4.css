@@ -16577,6 +16577,98 @@ progress {
   content: "";
 }
 
+.text-xs, .text-sm, .text-base, .text-lg, .text-xl, .text-xl2, .text-xl3 {
+  line-height: 1.55rem;
+}
+
+.text-xl4, .text-xl5, .text-xl6, .text-xl7, .text-xl8, .text-xl9 {
+  line-height: 3.5rem;
+}
+
+.text-xs {
+  font-size: .75rem;
+}
+
+.text-sm {
+  font-size: .875rem;
+}
+
+.text-base {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-xl2 {
+  font-size: 1.5rem;
+}
+
+.text-xl3 {
+  font-size: 1.875rem;
+}
+
+.text-xl4 {
+  font-size: 2.25rem;
+}
+
+.text-xl5, .text-xl6 {
+  font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+  .text-xl6 {
+    font-size: 3.75rem;
+  }
+}
+
+.text-xl7 {
+  font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+  .text-xl7 {
+    font-size: 4.5rem;
+  }
+}
+
+.text-xl8 {
+  font-size: 6rem;
+}
+
+.text-xl9 {
+  font-size: 8rem;
+}
+
+.c-primary {
+  color: #3e183a !important;
+}
+
+.c-secondary {
+  color: #5fa2b6 !important;
+}
+
+.c-white {
+  color: #fff;
+}
+
+.b-white {
+  background-color: #fff;
+}
+
+.b-primary {
+  background-color: #3e183a;
+}
+
+.b-secondary {
+  background-color: #5fa2b6;
+}
+
 .nav-primary {
   width: 100%;
   z-index: 2;
@@ -16896,8 +16988,25 @@ progress {
   background-image: url("aparelhos.457f438a.jpg");
 }
 
-.spacer-default {
+body {
+  font-family: Montserrat, sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.spacer-pt--default {
   padding-top: 300px;
+}
+
+.spacer-mb--default {
+  margin-bottom: 60px;
+}
+
+.bars-default {
+  background: linear-gradient(90deg, #3e183a 19%, #22b0ca 100%);
+}
+
+.title-border {
+  color: #3e183a;
+  border-bottom: 2px solid #3e183a;
 }
 
 /*# sourceMappingURL=index.971c2ea4.css.map */
