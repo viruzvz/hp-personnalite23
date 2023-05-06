@@ -42,3 +42,20 @@
     font-weight:lighter;
   }
 }
+
+.cardbox-nospace {
+  flex: 1;
+}
+
+.cardbox-style {
+  margin: 0;
+  background-color: transparent;
+  &:not(:last-child) {
+    border-right: 1px solid $white;
+  }
+}
+
+.cardbox-style2 {
+  background-color: white;
+  border: 1px solid #ccc;
+}

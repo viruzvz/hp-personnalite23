@@ -2,6 +2,7 @@
 @import "@/styles/vendors/bootstrap";
 @import "@/styles/vendors/font-awesome";
 @import "@/styles/vendors/google-fonts";
+// @import "@/styles/vendors/owl.carousel";
 
 // Componentes
 @import "@/styles/components/variables";
@@ -36,4 +37,20 @@ body {
 .title-border {
   color: $c-primary;
   border-bottom: 2px solid $c-primary;
+}
+
+.section-spacer--default {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.servicos {
+  background-image: url('../assets/bg-roll.jpg');
+  background-size: cover;
+}
+
+.equipe {
+  background-image: url('../assets/shape30.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
