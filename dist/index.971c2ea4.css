@@ -16870,6 +16870,24 @@ progress {
   font-weight: lighter;
 }
 
+.cardbox-nospace {
+  flex: 1;
+}
+
+.cardbox-style {
+  background-color: #0000;
+  margin: 0;
+}
+
+.cardbox-style:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+.cardbox-style2 {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
 .link {
   text-decoration: none;
   transition: all .3s;
@@ -17007,6 +17025,22 @@ body {
 .title-border {
   color: #3e183a;
   border-bottom: 2px solid #3e183a;
+}
+
+.section-spacer--default {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.servicos {
+  background-image: url("bg-roll.d0a766ca.jpg");
+  background-size: cover;
+}
+
+.equipe {
+  background-image: url("shape30.16656c02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=index.971c2ea4.css.map */

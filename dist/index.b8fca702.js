@@ -558,6 +558,7 @@ function hmrAccept(bundle, id) {
 
 },{}],"3cYfC":[function(require,module,exports) {
 // import '@/scripts/bootstrap'
+// import '@/scripts/cursor'
 
 },{}]},["5anPP","3cYfC"], "3cYfC", "parcelRequire4b3e")
 

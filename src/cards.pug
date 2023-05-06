@@ -1,14 +1,26 @@
 section.position-relative
   .container.cardbox-absolute
     .cardbox-flex
-      mixin cardbox(src,title)
-        a.link.link-white.cardbox(href="#")
-          .imgbox
-            img(src=src, alt="")
-          .title
-            = title
-          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis hic id, ullam nam incidunt itaque tempora a vel atque voluptates eligendi, molestiae rerum quos! Eum dolore suscipit numquam assumenda.
-      +cardbox('assets/convenios.svg','CONVÊNIOS')
-      +cardbox('assets/clock.svg','HORÁRIOS')
-      +cardbox('assets/users.svg','CORPO CLÍNICO')
-      +cardbox('assets/calendar.svg','AGENDAMENTO')
+      mixin cardbox(cardclass, path, title, button)
+        if button
+          .cardbox(class=cardclass)
+            .imgbox
+              img(src=path, alt="")
+            .title
+              = title
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis hic id, ullam nam incidunt itaque
+            button.btn.btn-outline-primary.btn-sm.rounded-0(type="submit") Saiba mais 
+        else
+          a.cardbox(class=cardclass, href="#")
+            .imgbox
+              img(src=path, alt="")
+            .title
+              = title
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis hic id, ullam nam incidunt itaque
+
+          
+
+      +cardbox('link link-white','assets/convenios.svg','CONVÊNIOS')
+      +cardbox('link link-white','assets/clock.svg','HORÁRIOS')
+      +cardbox('link link-white','assets/users.svg','CORPO CLÍNICO')
+      +cardbox('link link-white','assets/calendar.svg','AGENDAMENTO')
