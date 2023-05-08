@@ -4,6 +4,10 @@
   justify-content: space-between;
 }
 
+.cardbox-flexSwipe {
+  flex-wrap: nowrap;
+}
+
 .cardbox-absolute {
   position: absolute;
   top: -70px;
@@ -58,4 +62,5 @@
 .cardbox-style2 {
   background-color: white;
   border: 1px solid #ccc;
+  min-width: 300px;
 }
