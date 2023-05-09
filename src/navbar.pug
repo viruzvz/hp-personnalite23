@@ -15,12 +15,6 @@ nav.navbar.navbar-expand-lg.nav-primary
         li.nav-item
           a.nav-link Agendar
       ul.navbar-nav.mb-2.mb-lg-0.navbar-social
-        li.nav-item
-          a.nav-link(href='#') 
-            i.fa-brands.fa-facebook
-        li.nav-item
-          a.nav-link(href='#')
-            i.fa-brands.fa-instagram
-        li.nav-item
-          a.nav-link(href='#')
-            i.fa-brands.fa-whatsapp
+        +social("nav-item","nav-link","https://www.facebook.com/institutopersonnalitedf","fa-brands fa-facebook")
+        +social("nav-item","nav-link","https://www.instagram.com/institutopersonnalitedf","fa-brands fa-instagram")
+        +social("nav-item","nav-link","https://wa.me/5561982463555","fa-brands fa-whatsapp")

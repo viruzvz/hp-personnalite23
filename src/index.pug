@@ -9,9 +9,12 @@ html(lang='en')
     link(rel='icon', type='image/svg+xml', href='assets/favicon.svg')
     script(type="module" src='scripts/main.js')
     script(type="module" src='scripts/bootstrap.js')
+    script(src='https://cdn2.woxo.tech/a.js#64586f1c510f85d5292ec1f7' async='' data-usrc='')
+    script(src='../node_modules/jquery/dist/jquery.js')
 
   body 
     header
+      include social.pug
       include navbar.pug
       include carousel.pug
     section.content
@@ -21,4 +24,5 @@ html(lang='en')
       include equipe.pug
       include booking.pug
       include map.pug
+      include footer.pug
     footer

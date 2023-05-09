@@ -16,6 +16,8 @@
 @import "@/styles/components/mosaic";
 @import "@/styles/components/carousel-swipe";
 @import "@/styles/components/paralax";
+@import "@/styles/components/titles";
+@import "@/styles/components/iplay";
 
 body {
   font-family: 'Montserrat', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -26,7 +28,19 @@ body {
 }
 
 .spacer-pt--default {
-  padding-top: 300px;
+  padding-top: 250px;
+  @include media-breakpoint-down(xl) {
+    padding-top: 400px;
+  }
+  @include media-breakpoint-down(lg) {
+    padding-top: 500px;
+  }
+  @include media-breakpoint-down(md) {
+    padding-top: 520px;
+  }
+  @include media-breakpoint-down(sm) {
+    padding-top: 920px;
+  }
 }
 
 .spacer-mb--default {
@@ -57,4 +71,14 @@ body {
   background-image: url('../assets/shape30.png');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.footer {
+  background: linear-gradient(90deg, rgba(62, 24, 58, 1) 19%, rgba(34, 176, 202, 1) 100%);
+}
+
+#instagram {
+  .wx-title {
+    display: none;
+  }
 }

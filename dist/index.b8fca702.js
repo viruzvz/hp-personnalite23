@@ -558,7 +558,10 @@ function hmrAccept(bundle, id) {
 
 },{}],"3cYfC":[function(require,module,exports) {
 // import '@/scripts/bootstrap'
-// import '@/scripts/cursor'
+var _maps = require("@/scripts/maps");
+var _navbar = require("@/scripts/navbar");
+
+},{"@/scripts/maps":"jOcDi","@/scripts/navbar":"g6N3y"}],"jOcDi":[function(require,module,exports) {
 var _jsApiLoader = require("@googlemaps/js-api-loader");
 const loader = new (0, _jsApiLoader.Loader)({
     apiKey: "AIzaSyBQlP9Y7UfQ--6_bDyVANqW62W57pv-WaU",
@@ -723,7 +726,6 @@ loader.load().then(()=>{
         title: "Hello World!"
     });
 });
-window.initMap = initMap;
 
 },{"@googlemaps/js-api-loader":"02tzh"}],"02tzh":[function(require,module,exports) {
 // do not edit .js files directly - edit src/index.jst
@@ -1010,6 +1012,15 @@ exports.export = function(dest, destName, get) {
         get: get
     });
 };
+
+},{}],"g6N3y":[function(require,module,exports) {
+$(document).ready(function() {
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll > 50) $(".nav-primary").addClass("on");
+        else $(".nav-primary").removeClass("on");
+    });
+});
 
 },{}]},["5anPP","3cYfC"], "3cYfC", "parcelRequire4b3e")
 

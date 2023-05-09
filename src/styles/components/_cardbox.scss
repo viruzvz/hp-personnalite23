@@ -51,11 +51,65 @@
   flex: 1;
 }
 
+.cardbox-saparate {
+  &:not(:last-child) {
+    border-bottom: 1px solid $white;
+  }
+}
+
 .cardbox-style {
   margin: 0;
   background-color: transparent;
+  flex: 1;
   &:not(:last-child) {
     border-right: 1px solid $white;
+  }
+  @include media-breakpoint-down(xl) {
+    &:nth-child(1),
+    &:nth-child(2) {
+      border-bottom: 1px solid $white;
+    }
+    &:nth-child(1),
+    &:nth-child(3) {
+      border-right: 1px solid $white;
+    }
+    &:nth-child(2),
+    &:nth-child(4) {
+      border-right: none;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    &:nth-child(1),
+    &:nth-child(3) {
+      border-right: none;
+    }
+    &:nth-child(2),
+    &:nth-child(4) {
+      border-right: none;
+    }
+    &:not(:last-child) {
+      border-bottom: 1px solid $white;
+    }
+  }
+}
+
+.cardbox-style1 {
+  @include media-breakpoint-down(xl) {
+    flex: 0 49%;
+    margin: 1px 1px 5px 1px;
+  }
+  @include media-breakpoint-down(sm) {
+    flex: 0 100%;
+    margin: 0 0 5px 0;
+  }
+}
+
+.cardbox-style {
+  @include media-breakpoint-down(xl) {
+    flex: 0 50%;
+  }
+  @include media-breakpoint-down(sm) {
+    flex: 0 100%;
   }
 }
 

@@ -4,8 +4,15 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 3;
+  transition: $transition;
   .navbar-collapse {
     flex-grow: 0;
   }
+}
+
+.nav-primary.on {
+  transition: $transition;
+  background-color: white;
+  box-shadow: $s-boxshadow;
 }

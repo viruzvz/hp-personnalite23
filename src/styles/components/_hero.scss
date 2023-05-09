@@ -21,3 +21,19 @@
     right: 0;
   }
 }
+.carousel-hero--image {
+  height: 100vh;
+  width: 100%;
+}
+
+.img-1 {
+  background-image: url('../assets/slide-1.jpg');
+  background-size: cover;
+  background-position: 0px -238px;
+}
+
+.img-2 {
+  background-image: url('../assets/slide-2.jpg');
+  background-size: cover;
+  background-position: center top;
+}
