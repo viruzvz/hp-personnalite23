@@ -4,6 +4,7 @@
   background-size: cover;
 }
 
+<<<<<<< HEAD
 .mosaic-res {
   height: 100%;
   @include media-breakpoint-down(xl) {
@@ -14,6 +15,8 @@
   }
 }
 
+=======
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
 .mosaic-wrapper {
   display: flex;
   flex-direction: column;
@@ -39,6 +42,10 @@
 }
 
 .mosaic-image3 {
+<<<<<<< HEAD
   background-image: url(../assets/aparelhos.jpg);
   background-position: -200px 0px;
+=======
+  background-image: url(../assets/aparelhos.jpg)
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
 }

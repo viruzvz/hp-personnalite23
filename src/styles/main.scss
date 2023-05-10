@@ -6,6 +6,10 @@
 // @import "@/styles/vendors/owl.carousel";
 
 // Componentes
+<<<<<<< HEAD
+=======
+@import "@/styles/components/variables";
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
 @import "@/styles/components/sizes";
 @import "@/styles/components/colors";
 @import "@/styles/components/nav";
@@ -14,15 +18,19 @@
 @import "@/styles/components/cardbox";
 @import "@/styles/components/link";
 @import "@/styles/components/mosaic";
+<<<<<<< HEAD
 @import "@/styles/components/carousel-swipe";
 @import "@/styles/components/paralax";
 @import "@/styles/components/titles";
 @import "@/styles/components/iplay";
+=======
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
 
 body {
   font-family: 'Montserrat', sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+<<<<<<< HEAD
 #map {
   height: 600px;
 }
@@ -41,6 +49,12 @@ body {
   @include media-breakpoint-down(sm) {
     padding-top: 920px;
   }
+=======
+
+
+.spacer-pt--default {
+  padding-top: 300px;
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
 }
 
 .spacer-mb--default {
@@ -71,6 +85,7 @@ body {
   background-image: url('../assets/shape30.png');
   background-size: cover;
   background-repeat: no-repeat;
+<<<<<<< HEAD
 }
 
 .footer {
@@ -81,4 +96,6 @@ body {
   .wx-title {
     display: none;
   }
+=======
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
 }

@@ -558,6 +558,7 @@ function hmrAccept(bundle, id) {
 
 },{}],"3cYfC":[function(require,module,exports) {
 // import '@/scripts/bootstrap'
+<<<<<<< HEAD
 var _maps = require("@/scripts/maps");
 var _navbar = require("@/scripts/navbar");
 
@@ -1021,6 +1022,9 @@ $(document).ready(function() {
         else $(".nav-primary").removeClass("on");
     });
 });
+=======
+// import '@/scripts/cursor'
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
 
 },{}]},["5anPP","3cYfC"], "3cYfC", "parcelRequire4b3e")
 

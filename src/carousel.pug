@@ -5,12 +5,17 @@
     button(type='button' data-bs-target='#carousel-hero' data-bs-slide-to='2' aria-label='Slide 3')
   .carousel-inner
     .carousel-item.active
+<<<<<<< HEAD
       .carousel-hero--image.img-1
+=======
+      img.d-block.w-100(src='https://unsplash.it/1500/760?random&amp;seed=1' alt='...')
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
       mixin container-hero(col, h1, p)
         .container.container-hero
           .row
             div(class=col)
               .caption
+<<<<<<< HEAD
                 h1.fw-bold.text-xl6.animated.fadeInRight
                   = h1
                 p.animated.fadeInLeft 
@@ -21,6 +26,18 @@
       +container-hero('col-md-6','TITULO','. Id, cumque odit! Placeat ea, hic esse, impedit, dolores blanditiis sint commodi officiis iure modi provident odit accusamus laboriosam ad aliquid nemo.')
     .carousel-item
       .carousel-hero--image.img-3
+=======
+                h1.animated.fadeInRight
+                  = h1
+                p.animated.fadeInLeft 
+                  = p
+      +container-hero('col-md-6','TITULO','. Id, cumque odit! Placeat ea, hic esse, impedit, dolores blanditiis sint commodi officiis iure modi provident odit accusamus laboriosam ad aliquid nemo.')
+    .carousel-item
+      img.d-block.w-100(src='https://unsplash.it/1500/760?random&amp;seed=2' alt='...')
+      +container-hero('col-md-6','TITULO','. Id, cumque odit! Placeat ea, hic esse, impedit, dolores blanditiis sint commodi officiis iure modi provident odit accusamus laboriosam ad aliquid nemo.')
+    .carousel-item
+      img.d-block.w-100(src='https://unsplash.it/1500/760?random&amp;seed=3' alt='...')
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
       +container-hero('col-md-6','TITULO','. Id, cumque odit! Placeat ea, hic esse, impedit, dolores blanditiis sint commodi officiis iure modi provident odit accusamus laboriosam ad aliquid nemo.')
   button.carousel-control-prev(type='button' data-bs-target='#carousel-hero' data-bs-slide='prev')
     span.carousel-control-prev-icon(aria-hidden='true')

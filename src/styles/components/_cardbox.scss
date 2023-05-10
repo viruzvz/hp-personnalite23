@@ -4,10 +4,13 @@
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .cardbox-flexSwipe {
   flex-wrap: nowrap;
 }
 
+=======
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
 .cardbox-absolute {
   position: absolute;
   top: -70px;
@@ -51,6 +54,7 @@
   flex: 1;
 }
 
+<<<<<<< HEAD
 .cardbox-saparate {
   &:not(:last-child) {
     border-bottom: 1px solid $white;
@@ -111,10 +115,21 @@
   @include media-breakpoint-down(sm) {
     flex: 0 100%;
   }
+=======
+.cardbox-style {
+  margin: 0;
+  background-color: transparent;
+  &:not(:last-child) {
+    border-right: 1px solid $white;
+  }
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
 }
 
 .cardbox-style2 {
   background-color: white;
   border: 1px solid #ccc;
+<<<<<<< HEAD
   min-width: 300px;
+=======
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
 }

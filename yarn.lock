@@ -230,6 +230,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "@googlemaps/js-api-loader@npm:^1.15.1":
   version: 1.15.1
   resolution: "@googlemaps/js-api-loader@npm:1.15.1"
@@ -239,6 +240,8 @@ __metadata:
   languageName: node
   linkType: hard
 
+=======
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
 "@humanwhocodes/config-array@npm:^0.11.8":
   version: 0.11.8
   resolution: "@humanwhocodes/config-array@npm:0.11.8"
@@ -1626,7 +1629,10 @@ __metadata:
   resolution: "arquetipo-parcel@workspace:."
   dependencies:
     "@fortawesome/fontawesome-free": "npm:^6.2.1"
+<<<<<<< HEAD
     "@googlemaps/js-api-loader": "npm:^1.15.1"
+=======
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
     "@parcel/transformer-pug": "npm:^2.8.0"
     "@parcel/transformer-sass": "npm:^2.8.0"
     "@popperjs/core": "npm:^2.11.7"

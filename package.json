@@ -20,7 +20,10 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.1",
+<<<<<<< HEAD
     "@googlemaps/js-api-loader": "^1.15.1",
+=======
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
     "@popperjs/core": "^2.11.7",
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.4"

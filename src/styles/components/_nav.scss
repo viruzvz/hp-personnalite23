@@ -4,15 +4,22 @@
   position: fixed;
   top: 0;
   width: 100%;
+<<<<<<< HEAD
   z-index: 3;
   transition: $transition;
+=======
+  z-index: 2;
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
   .navbar-collapse {
     flex-grow: 0;
   }
 }
+<<<<<<< HEAD
 
 .nav-primary.on {
   transition: $transition;
   background-color: white;
   box-shadow: $s-boxshadow;
 }
+=======
+>>>>>>> 3d9f43125d3ec805502093b2c7363fd6f6dd22a4
