@@ -1,4 +1,4 @@
-21425
+21427
 72/home/viruzvz/Documents/www/hp-personnalite23/images/implantondontia.svg1682629219813857477 0
 64/home/viruzvz/Documents/www/hp-personnalite23/images/slide02.jpg1682629219813857477 0
 66/home/viruzvz/Documents/www/hp-personnalite23/images/cirurgias.svg1682629219813857477 0
@@ -33,13 +33,14 @@
 74/home/viruzvz/Documents/www/hp-personnalite23/dist/endodontia.939075ec.svg1683597136343891002 0
 72/home/viruzvz/Documents/www/hp-personnalite23/dist/index.5681dc72.js.map1683341171812370119 0
 71/home/viruzvz/Documents/www/hp-personnalite23/dist/bg-roll.d0a766ca.jpg1683597136303891002 0
-69/home/viruzvz/Documents/www/hp-personnalite23/dist/index.971c2ea4.css1683597136273891002 0
-71/home/viruzvz/Documents/www/hp-personnalite23/dist/slide-2.0116fe1d.jpg1683597136303891002 0
+69/home/viruzvz/Documents/www/hp-personnalite23/dist/index.971c2ea4.css1683679245344458559 0
+69/home/viruzvz/Documents/www/hp-personnalite23/dist/slide.c17ba0d2.jpg1683679003764456511 0
+71/home/viruzvz/Documents/www/hp-personnalite23/dist/slide-2.0116fe1d.jpg1683679617404461713 0
 71/home/viruzvz/Documents/www/hp-personnalite23/dist/limpeza.350b30e1.jpg1683597468093893815 0
 76/home/viruzvz/Documents/www/hp-personnalite23/dist/logo-dourada.dd773af0.svg1683597136603891005 0
 72/home/viruzvz/Documents/www/hp-personnalite23/dist/calendar.ed1b4112.svg1683597136583891004 0
 78/home/viruzvz/Documents/www/hp-personnalite23/dist/fa-solid-900.45be5413.woff21683597136303891002 0
-50/home/viruzvz/Documents/www/hp-personnalite23/dist1683599078923907469 1
+50/home/viruzvz/Documents/www/hp-personnalite23/dist1683679617404461713 1
 57/home/viruzvz/Documents/www/hp-personnalite23/.yarnrc.yml1682629235863857613 0
 55/home/viruzvz/Documents/www/hp-personnalite23/README.md1682629219803857477 0
 58/home/viruzvz/Documents/www/hp-personnalite23/package.json1683491969719611813 0
@@ -60,11 +61,12 @@
 81/home/viruzvz/Documents/www/hp-personnalite23/src/assets/servicos/periodontia.svg1683591538360461400 0
 65/home/viruzvz/Documents/www/hp-personnalite23/src/assets/servicos1683592279833849834 1
 68/home/viruzvz/Documents/www/hp-personnalite23/src/assets/favicon.svg1682629221003857487 0
-68/home/viruzvz/Documents/www/hp-personnalite23/src/assets/slide-2.jpg1683572352393680911 0
+68/home/viruzvz/Documents/www/hp-personnalite23/src/assets/slide-2.jpg1683679617314461712 0
 71/home/viruzvz/Documents/www/hp-personnalite23/src/assets/aparelhos2.jpg1682638261654343800 0
 89/home/viruzvz/Documents/www/hp-personnalite23/src/assets/logo-dourada.svg:Zone.Identifier1683512707343458500 0
 86/home/viruzvz/Documents/www/hp-personnalite23/src/assets/aparelhos.jpg:Zone.Identifier1682638295787366200 0
 65/home/viruzvz/Documents/www/hp-personnalite23/src/assets/logo.svg1682629221003857487 0
+66/home/viruzvz/Documents/www/hp-personnalite23/src/assets/slide.jpg1683679003654456510 0
 69/home/viruzvz/Documents/www/hp-personnalite23/src/assets/calendar.svg1682629221003857487 0
 68/home/viruzvz/Documents/www/hp-personnalite23/src/assets/bg-roll.jpg1683313966032139498 0
 62/home/viruzvz/Documents/www/hp-personnalite23/src/servicos.pug1683592554273852161 0
@@ -10875,7 +10877,7 @@
 99/home/viruzvz/Documents/www/hp-personnalite23/node_modules/@babel/runtime/helpers/applyDecs2203R.js1682629268423857889 0
 84/home/viruzvz/Documents/www/hp-personnalite23/node_modules/object-keys/test/index.js1682629269183857896 0
 85/home/viruzvz/Documents/www/hp-personnalite23/node_modules/@parcel/graph/src/types.js1682629268693857891 0
-56/home/viruzvz/Documents/www/hp-personnalite23/src/assets1683598852703905552 1
+56/home/viruzvz/Documents/www/hp-personnalite23/src/assets1683679617324461712 1
 89/home/viruzvz/Documents/www/hp-personnalite23/node_modules/es-abstract/2021/IsCallable.js1682629269933857902 0
 68/home/viruzvz/Documents/www/hp-personnalite23/node_modules/gopd/test1682629269833857901 1
 79/home/viruzvz/Documents/www/hp-personnalite23/node_modules/resolve/test/mock.js1682629268353857889 0
@@ -17019,7 +17021,7 @@
 105/home/viruzvz/Documents/www/hp-personnalite23/node_modules/table/dist/src/calculateMaximumColumnWidths.js1682629267103857878 0
 130/home/viruzvz/Documents/www/hp-personnalite23/node_modules/@trivago/prettier-plugin-sort-imports/lib/src/utils/get-import-nodes.js1682629266773857875 0
 136/home/viruzvz/Documents/www/hp-personnalite23/node_modules/@trivago/prettier-plugin-sort-imports/lib/src/utils/get-sorted-nodes-names.js1682629266783857875 0
-73/home/viruzvz/Documents/www/hp-personnalite23/dist/index.971c2ea4.css.map1683597136283891002 0
+73/home/viruzvz/Documents/www/hp-personnalite23/dist/index.971c2ea4.css.map1683679245344458559 0
 116/home/viruzvz/Documents/www/hp-personnalite23/node_modules/stylelint/lib/rules/function-comma-newline-after/index.js1682629266593857874 0
 131/home/viruzvz/Documents/www/hp-personnalite23/node_modules/@trivago/prettier-plugin-sort-imports/lib/src/utils/extract-ast-nodes.js1682629266763857875 0
 144/home/viruzvz/Documents/www/hp-personnalite23/node_modules/@trivago/prettier-plugin-sort-imports/lib/src/utils/get-import-nodes-matched-group.js1682629266773857875 0
@@ -17056,7 +17058,7 @@
 78/home/viruzvz/Documents/www/hp-personnalite23/node_modules/lodash/_castRest.js1682629268233857888 0
 156/home/viruzvz/Documents/www/hp-personnalite23/node_modules/@trivago/prettier-plugin-sort-imports/node_modules/@babel/types/lib/validators/generated/index.js1682629266863857876 0
 94/home/viruzvz/Documents/www/hp-personnalite23/node_modules/string.prototype.trim/test/tests.js1682629269863857901 0
-78/home/viruzvz/Documents/www/hp-personnalite23/src/styles/components/_hero.scss1683572824043684909 0
+78/home/viruzvz/Documents/www/hp-personnalite23/src/styles/components/_hero.scss1683679241524458526 0
 90/home/viruzvz/Documents/www/hp-personnalite23/node_modules/string.prototype.trim/.eslintrc1682629269863857901 0
 82/home/viruzvz/Documents/www/hp-personnalite23/node_modules/prelude-ls/lib/index.js1682629267883857885 0
 70/home/viruzvz/Documents/www/hp-personnalite23/node_modules/ajv/lib/dot1682629266883857876 1

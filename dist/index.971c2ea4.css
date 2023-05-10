@@ -16724,14 +16724,14 @@ progress {
 }
 
 .img-1 {
-  background-image: url("slide-1.b7b634da.jpg");
-  background-position: 0 -238px;
+  background-image: url("slide.c17ba0d2.jpg");
+  background-position: center;
   background-size: cover;
 }
 
 .img-2 {
   background-image: url("slide-2.0116fe1d.jpg");
-  background-position: top;
+  background-position: center;
   background-size: cover;
 }
 
